@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Manjari', sans-serif;
+}
+
+.header-container{
+    display: flex;
+
+
+}
+
+#logo-container{
+
+    flex-grow: 1;
+}
+
+#logo{
+
+    position: relative;
+    width:230px;
+    left: 60px;
+    top:20px;
+}
+
+#admin-nav{
+
+    display: flex;
+    flex-grow:1;
+    position: relative;
+    top: 40;
+
+}
+
+#admin-menu{
+
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#admin-menu > li:hover{
+    border-bottom: 3px solid grey;
+
+}
+
+
