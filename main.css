@@ -3,6 +3,10 @@
     font-family: 'Manjari', sans-serif;
 }
 
+.header-div{
+    padding: 0px 120px;
+}
+
 .header-container{
     display: flex;
 
@@ -22,13 +26,16 @@
     top:20px;
 }
 
-#admin-nav{
-
+.nav{
     display: flex;
     flex-grow:1;
     position: relative;
-    top: 40;
+}
 
+#main-menu-nav{
+
+    margin-top: 40px;
+    margin-left: 14px;
 }
 
 #admin-menu{
@@ -67,11 +74,10 @@ li:hover::after{
     background-color: yellow;
 
 }
+main > img {
 
-#welcome1{
-    width: 100%;
+    width: 100vw;
 }
-
 span{margin: 10px;}
 
 
