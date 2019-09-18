@@ -1,83 +1,74 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Manjari', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Manjari", sans-serif;
 }
 
-.header-div{
-    padding: 0px 120px;
+.header-div {
+  padding: 0px 120px;
 }
 
-.header-container{
-    display: flex;
-
-
+.header-container {
+  display: flex;
 }
 
-#logo-container{
-
-    flex-grow: 1;
+#logo-container {
+  flex-grow: 1;
 }
 
-#logo{
-
-    position: relative;
-    width:230px;
-    left: 60px;
-    top:20px;
+#logo {
+  position: relative;
+  width: 230px;
+  left: 60px;
+  top: 20px;
 }
 
-.nav{
-    display: flex;
-    flex-grow:1;
-    position: relative;
+.nav {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
 }
 
-#main-menu-nav{
-
-    margin-top: 40px;
-    margin-left: 14px;
+#main-menu-nav {
+  margin-top: 33px;
+  margin-left: 14px;
 }
 
-#admin-menu{
-
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    font-size: 20px;
+#admin-menu {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 20px;
 }
 
-#main-menu{
-
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    font-size: 20px;
+#main-menu {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 20px;
 }
 
-li{
-    position: relative;
+li {
+  position: relative;
 }
 
-li:hover::after{
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    content: "";
-    width: 100%;
-    height: 3px;
-    background-color:grey;
+li:hover::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: grey;
 }
 
-#main-menu > li:hover::after{
-    background-color: yellow;
-
+#main-menu > li:hover::after {
+  background-color: yellow;
 }
 main > img {
-
-    width: 100vw;
+  width: 100vw;
 }
-span{margin: 10px;}
-
-
+span {
+  margin: 10px;
+}
