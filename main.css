@@ -63,12 +63,18 @@ li:hover::after {
   background-color: grey;
 }
 
+#welcomeIMG {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
 #main-menu > li:hover::after {
   background-color: yellow;
 }
-main > img {
+/*main > img {
   width: 100vw;
-}
+}*/
 span {
   margin: 10px;
 }
