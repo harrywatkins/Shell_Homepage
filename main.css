@@ -17,6 +17,7 @@ body {
 
 .header-div {
   padding: 0px 160px;
+  padding-top: 30px;
 }
 
 .header-container {
@@ -28,8 +29,8 @@ body {
 }
 
 #logo-container > img {
-  height: 60px;
-  left: 55px;
+  height: 55px;
+  left: 60px;
   position: relative;
 }
 
@@ -90,9 +91,21 @@ li:hover::after {
 #main-menu > li:hover::after {
   background-color: yellow;
 }
-/*main > img {
-  width: 100vw;
-}*/
+
+#blue-strip {
+  background-color: #0097bb;
+  padding-left: 2.178rem;
+  padding-right: 2.178rem;
+  padding-bottom: 1rem;
+  min-width: 900px;
+  height: 300px;
+  margin-top: -90px;
+}
+
+#icon-container {
+  box-sizing: inherit;
+}
+
 span {
   margin: 10px;
 }
