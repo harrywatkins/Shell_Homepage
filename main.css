@@ -104,6 +104,10 @@ li:hover::after {
 
 #icon-container {
   box-sizing: inherit;
+  position: absolute;
+  width: 283px;
+  top: 759px;
+  left: 1100px;
 }
 
 span {
