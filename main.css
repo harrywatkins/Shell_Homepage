@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: "Manjari", sans-serif;
+}
+
+main {
+  height: 690px;
+  background-repeat: no-repeat;
+  background-position: 0% 200%;
+  background-image: url("https://images.contentstack.io/v3/assets/blta609b9d4b2a46a96/blt2d6d83116c800a66/5d6ff3627c973409fa2b8262/Connected-Home-Month-Header-1600x715.jpg");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-div {
+  padding: 0px 160px;
+  padding-top: 30px;
+}
+
+.header-container {
+  display: flex;
+}
+
+#logo-container {
+  flex-grow: 1;
+}
+
+#logo-container > img {
+  height: 55px;
+  left: 60px;
+  position: relative;
+}
+
+#logo {
+  position: relative;
+  width: 230px;
+  left: 60px;
+  top: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+
+#main-menu-nav {
+  margin-top: 6px;
+  margin-left: 14px;
+}
+
+#admin-menu {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+#main-menu {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+li {
+  position: relative;
+}
+
+li:hover::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+
+#welcomeIMG {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+#main-menu > li:hover::after {
+  background-color: yellow;
+}
+
+#blue-strip {
+  background-color: #0097bb;
+  padding-left: 2.178rem;
+  padding-right: 2.178rem;
+  padding-bottom: 1rem;
+  min-width: 900px;
+  height: 300px;
+  margin-top: -90px;
+}
+
+#icon-container {
+  box-sizing: inherit;
+  position: absolute;
+  width: 283px;
+  top: 759px;
+  left: 1100px;
+}
+
+span {
+  margin: 10px;
+}
